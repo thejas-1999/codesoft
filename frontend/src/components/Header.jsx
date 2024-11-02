@@ -8,7 +8,11 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="TKShop" />
+            <img
+              src={logo}
+              alt="TKShop"
+              style={{ width: "40px", height: "35px" }}
+            />
             TKShop
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
